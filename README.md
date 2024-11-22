@@ -47,7 +47,7 @@ Product Description: A summary of the product's features.
 - June, March, and April had pretty high sales and corresponding customer visits.
 - Young Adult customers (25-34 year olds) contribute 67% of sales, 116M while seniors (above 55) and youths (18 to 24 years old) have a lower number of sales.
   
-![image](https://github.com/user-attachments/assets/07bfc70c-2915-4f11-b6ed-58e45d4768f5)
+
 
 #### Product Category
 CableMov had the highest number of sales 105M, 61% of total sales with CableMax, CableMobi and CableMax topping too with 26M and 21M sales respectively.
