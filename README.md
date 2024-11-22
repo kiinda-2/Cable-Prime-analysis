@@ -13,7 +13,7 @@ Cable Prime can benefit from optimizng its top product offerings, region, and de
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
 
-## Data Structure & Initial Checks
+## Data Structure 
 The company's main database structure as seen below consists of two tables: Payments and Products, with a total row count of 500k records. A description of each table is as follows:
 
 Table 1: Payments
