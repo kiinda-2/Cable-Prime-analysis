@@ -86,9 +86,9 @@ Days like Friday and Wednesday tend to have higher customer visit counts across 
 
 ![image](https://github.com/user-attachments/assets/9b28bf5a-e2d3-4add-b7b3-6294151a4fc3)
 
-Recommendations:
+#### Recommendations:
 - Optimize Pricing: Introduce affordable packages tailored to regions with lower sales (Kwazulu Natal, FreeState, and Mpumalanga) while also optimizing discounts or customer loyalty programs in regions with higher sales to retain customers and attract new customers.
 - Targeted Marketing: Focus marketing efforts on black and white customers, the 25-34 demographic with streaming promotions.
   
-Challenge:
-Had a challenge in converting payment date column (which is supposed to be date), it's value was stored as 20190626 to be in this format 2019-06-26 in SQL. Used Power BI for conversion
+#### Challenge:
+Had a challenge in converting the payment date column (which is supposed to be date), it's value was stored as 20190626 to be in this format 2019-06-26 in SQL. Used Power BI for conversion
