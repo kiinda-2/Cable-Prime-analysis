@@ -109,5 +109,5 @@ Fridays, Mondays, and Wednesdays had consistently high numbers of visits (65k an
 - Optimize Pricing: Introduce affordable packages tailored to regions with lower sales (Kwazulu Natal, FreeState, and Mpumalanga) while also optimizing discounts or customer loyalty programs in regions with higher sales to retain customers and attract new customers.
 - Targeted Marketing: Focus marketing efforts on black and white customers, the 25-34 demographic with streaming promotions.
   
-#### Challenge:
+### Challenge
 Had a challenge in converting the payment date column (which is supposed to be a date), its value was stored as 20190626 to be in this format 2019-06-26 in SQL. Used Power BI for conversion
