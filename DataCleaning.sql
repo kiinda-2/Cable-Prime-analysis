@@ -118,6 +118,33 @@ SELECT pay.CustomerIdentifier, pay.Province, pay.Gender, pay.Age, pay.Race, Pay.
 WHERE pay.PaymentMethod = 'NULL'and ment.PaymentMethod IS NOT NULL
 
 
+
+---NULL -> Other
 UPDATE payments
 SET PaymentMethod = 'Other'
 WHERE PaymentMethod = 'NULL'
+
+
+---Out of range values (10000000 and 100000000)
+---Find payment on that specific date and replace based on similar records
+
+select * from payments
+where ProductID = 32384 and Province = 'Gauteng' and age = 42 and gender ='female' and race = 'white' and PaymentMethod ='DebitOrder' and PaymentDate ='20190623  '
+
+
+update payments
+SET PaymentAmount = 82 
+where PaymentAmount = 10000000
+	
+------------------------------
+select * from payments
+where ProductID = 685715 and Province = 'NorthWest' and gender ='female' and race = 'Black' 
+and PaymentMethod ='DebitOrder' and PaymentDate ='20190410'
+
+
+update payments
+SET PaymentAmount = 101
+where PaymentAmount = 100000000
+
+
+
