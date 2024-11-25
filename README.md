@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/742b20e8-b45f-449d-b853-36130e5c6612)## Cable Prime Sales Performance Analysis (January - August 2019)
+## Cable Prime Sales Performance Analysis (January - August 2019)
 
 
 ## Project Background
