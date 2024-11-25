@@ -53,56 +53,57 @@ Table 2: Products
 ### Monthly Revenue Contributions 
 The revenue shows a steady performance between January to June (8.76M to 10.98M) with a steep drop in July and August which calls for investigation during these months to boost sales in similar periods in the future.
 
-![image]![image](https://github.com/user-attachments/assets/d9283bec-97f4-4b59-9a72-b35a139c2370)
+![image](https://github.com/user-attachments/assets/d9283bec-97f4-4b59-9a72-b35a139c2370)
 
 
 ### Product Category
 CableMax, CableMobi, and CableSport were top-selling product categories with 21M, 16M, and 13M total sales respectively.
 
-![image](![image](https://github.com/user-attachments/assets/0b2a1cdb-c792-4fd9-b3ea-576e8c2a9f68)
+![image](https://github.com/user-attachments/assets/0b2a1cdb-c792-4fd9-b3ea-576e8c2a9f68)
 
 
 ### Regional Sales Performance
 Gauteng drives most of the sales with 57% -> 40M of total sales with N/W/E Cape with 12M -> 17%. The remaining regions had no significant variations in sales, they had similar ranges.
 
-![image](![image](![image](https://github.com/user-attachments/assets/61f1828d-d2fd-45fb-acc3-3de57b86efb7)
+![image](https://github.com/user-attachments/assets/61f1828d-d2fd-45fb-acc3-3de57b86efb7)
 
 
 ### Sales by Age Category
-Middle-aged customers (35-54 years old) contribute 50% -> 35M of sales, and Young Adult customers (25-34-year-olds) contribute twice as much as middle-aged customers, 25% -> 17 M. Young adults have the potential for growth, so marketing efforts can be dedicated to this group to increase engagement.
+Middle-aged customers (35-54 years old) contribute 50% -> 35M of sales, and Young Adult customers (25-34-year-olds) contribute twice as much as middle-aged customers, 25% -> 17 M. Young adults have the growth potential, so marketing efforts can be dedicated to this group to increase engagement.
   
-![image](![image](https://github.com/user-attachments/assets/76ebc08e-7dea-4c15-a656-557e513e3330)
+![image](https://github.com/user-attachments/assets/76ebc08e-7dea-4c15-a656-557e513e3330)
 
 
 ### Sales by Race
 A significant majority of customers belong to the White (28M) sales and Black (18M) demographics, suggesting these groups are the primary focus of the business. 
 
-![image](![image](https://github.com/user-attachments/assets/c014720c-7932-4db2-b246-5be993c86e81)
+![image](https://github.com/user-attachments/assets/c014720c-7932-4db2-b246-5be993c86e81)
 
 
 ### Customer Visits by Race
 White customer demographics have a high number of customers (59k) which indicates frequent visits in this group with Black and Indian customers (35k and 22k customers respectively)
-![image]![image](https://github.com/user-attachments/assets/93cb25f4-44c9-41a7-94e8-3db9ffa7c737)
+![image](https://github.com/user-attachments/assets/93cb25f4-44c9-41a7-94e8-3db9ffa7c737)
 
 
 ### Preferred Payment Method
 Debit Order was the most preferred method of payment with 122k customers using it while Mobile App and USSD methods were not used as frequently.
 
-![image]![image](https://github.com/user-attachments/assets/aa9409bc-17ec-49fa-a269-fadb2956384d)
+![image](https://github.com/user-attachments/assets/aa9409bc-17ec-49fa-a269-fadb2956384d)
 
 
 ### Monthly Customer Visits
 The number of customers increased steadily throughout the months until June, then experienced a significant drop in August with low turn-outs.
 
-![image]![image]![image](https://github.com/user-attachments/assets/9478fc58-9c3a-44b4-867f-aa836358b33f)
+![image](https://github.com/user-attachments/assets/9478fc58-9c3a-44b4-867f-aa836358b33f)
 
 
-#### Daily Customer Visits through the Months
+### Daily Customer Visits through the Months
 Fridays, Mondays, and Wednesdays had consistently high numbers of visits (65k and 61k respectively), while Sundays had lower visit counts. June, March, and April saw significant customer visits(81k, 76,k and 75k respectively)
 
-![image](https://github.com/user-attachments/assets/9b28bf5a-e2d3-4add-b7b3-6294151a4fc3)
+![image](https://github.com/user-attachments/assets/082e4094-043c-400c-9bca-335c4c733a49)
 
-#### Recommendations:
+
+### Recommendations:
 - Improve dataset time period range the current data is limited therefore observations are based on the January to August 2019 period to have a wider range. 
 - Expand Method of Payment: Encourage adoption of digital payment methods with promotions and improved ease of access.
 - Optimize Pricing: Introduce affordable packages tailored to regions with lower sales (Kwazulu Natal, FreeState, and Mpumalanga) while also optimizing discounts or customer loyalty programs in regions with higher sales to retain customers and attract new customers.
