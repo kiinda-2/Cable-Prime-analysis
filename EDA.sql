@@ -1,11 +1,10 @@
-SELECT *  FROM  payments
 --------------------------EDA---------------------------------------------------------
 -----Total Sales
 SELECT 
 	ROUND(SUM(paymentAmount), 2) AS sales
 FROM  
 	payments
-WHERE paymentAmount NOT IN (100000000, 10000000)
+
 
 
 -----Gender Count
@@ -26,7 +25,6 @@ SELECT
 	Gender
 FROM  
 	payments
-WHERE paymentAmount != 100000000 AND paymentAmount != 10000000
 GROUP BY 
 	Gender
 ORDER BY 
@@ -41,7 +39,7 @@ SELECT
 	--subquery- total sum of paymentAmount across all records
 FROM  
     payments
-WHERE paymentAmount != 100000000 AND paymentAmount != 10000000
+
 GROUP BY 
     Gender
 ORDER BY 
@@ -52,7 +50,7 @@ ORDER BY
 ------Sales | Race
 SELECT SUM(paymentAmount) AS sales, Race
 	 FROM  payments
-WHERE Race is not null AND paymentAmount != 100000000 AND paymentAmount != 10000000
+WHERE Race is not null AND 
 GROUP BY Race
 ORDER BY sales DESC
 
@@ -60,7 +58,6 @@ ORDER BY sales DESC
 ------Sales | Province
 SELECT SUM(paymentAmount) AS sales, Province
 	 FROM  payments
-WHERE paymentAmount != 100000000 AND paymentAmount != 10000000
 GROUP BY Province
 ORDER BY sales DESC
 
@@ -98,14 +95,14 @@ FROM (
     SELECT 
         PaymentAmount,
         CASE
-            WHEN age BETWEEN 18 AND 34 THEN 'young adult'
-            WHEN age BETWEEN 35 AND 54 THEN 'middle age'
-            WHEN age >= 55 THEN 'old'
+            WHEN age BETWEEN 18 AND 34 THEN 'Youth'
+            WHEN age BETWEEN 25 AND 34 THEN 'Young Adult'
+  	    WHEN age BETWEEN 35 AND 54 THEN 'Middle Age'
+            WHEN age >= 55 THEN 'Senior'
         END AS age_group
     FROM 
         payments
-    WHERE 
-        PaymentAmount NOT IN (100000000, 10000000)
+  
 ) AS categorize
 GROUP BY 
     age_group
