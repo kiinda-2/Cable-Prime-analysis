@@ -6,7 +6,7 @@ Cable Prime Solutions, is a leading telecommunications company specializing in c
 
 
 ## Executive Summary
-Cable Prime's sales analysis  of 500k records across January to August 2019 shows R. 69,919,674 as the total revenue generated, with Gauteng contributing 56% (R 40M) and N/W/E cAPE region contributing 17% (R 12M) in sales. There is a peak in sales in March and in June. CableMax accounts for 30% of sales while CableMobi and CableSport with sales of 16M and 13M respectively. Looking at the demographics, female customers (96k) are twice the number of male customers (46k) and contribute to 69% of sales. White customers contribute the most towards sales, with 40% (28M) of total sales generated. Most customers prefer using debit as their preferred payment method (over 120k).
+Cable Prime's sales analysis  of 500k records across January to August 2019 shows R. 69,919,674 as the total revenue generated, with Gauteng contributing 56% (R 40M) and N/W/E Cape region contributing 17% (R 12M) in sales. There is a peak in sales in March and in June. CableMax accounts for 30% of sales while CableMobi and CableSport have 16M and 13M sales, respectively. Looking at the demographics, female customers (96k) are twice the number of male customers (46k) and contribute to 69% of sales. White customers contribute the most towards sales, with 40% (28M) of total sales generated. Most customers prefer using debit as their preferred payment method (over 120k).
 Cable Prime can benefit from optimizing its top product offerings, region, and demographic and enhancing loyalty programs/ discounts to increase customer lifetime value. Targeted growth in the N/E/W Cape region and white demographic group will strengthen Cable Prime's revenue generation and drive sustainable growth over time. 
 
 
@@ -17,13 +17,13 @@ The SQL queries used to inspect and clean the data for this analysis can be foun
 The company's main database structure as seen below consists of two tables: Payments and Products, with a total row count of 500k records. A description of each table is as follows:
 
 Table 1: Payments
-- PaymentAmount: The total amount paid by the customer for their subscription services.
+- PaymentAmount: The total amount customer pays for their subscription services.
 - PaymentDate: The date when the payment was processed. This helps track payment consistency.
 - CustomerIdentifier: A unique ID assigned to each customer for data linkage.
 - PaymentMethod: Describes how the payment was made, e.g., credit card, mobile money, or cash.
 - Gender: Indicates the customer's gender for demographic analysis.
 - Race: Includes data for diversity and regional preferences.
-- Province: The geographical location of the customer to assess regional sales performance.
+- Province: The customer's geographic location to assess regional sales performance.
 - ProductID: Links the payment to a specific product in the Products Table.
 - Age: The age of the customer to analyze trends across different age demographics.
 
